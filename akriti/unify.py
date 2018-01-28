@@ -47,9 +47,9 @@ res = [r[i:i+3] for i in range(0,len(r),3)]
     
 #print "res",res
 
-for y in range(0,127):
+for y in range(0,128):
     
-    for x in range(0,127):
+    for x in range(0,128):
         for u in res:
             #print x
        
